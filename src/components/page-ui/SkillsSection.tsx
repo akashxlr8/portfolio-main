@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { SiFastapi, SiJavascript, SiPostgresql, SiPython } from 'react-icons/si';
-import { SiLangchain } from 'react-icons/si';
+// import { SiLangchain } from 'react-icons/si';
 import { TbBrandOpenai } from 'react-icons/tb';
 
 import { EvervaultCard, Icon } from '@/components/ui/evervault-card';
@@ -40,8 +40,8 @@ const skills = [
     },
     {
         title: 'Langchain',
-        link: 'https://www.langchain.com/',
-        icon: <SiLangchain />
+        link: 'https://www.langchain.com/'
+        // icon: <SiLangchain />
     },
     {
         title: 'Autogen',
